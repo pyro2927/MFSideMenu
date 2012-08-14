@@ -6,7 +6,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define kSidebarWidth 270
+#define kSidebarWidth -64
 
 @interface MFSideMenuManager : NSObject<UIGestureRecognizerDelegate> {
     CGPoint originalOrigin;
