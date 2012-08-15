@@ -57,6 +57,7 @@
     controller.view.layer.shadowOpacity = 0.75f;
     controller.view.layer.shadowRadius = 10.0f;
     controller.view.layer.shadowColor = [UIColor blackColor].CGColor;
+    controller.view.layer.shadowPath = [UIBezierPath bezierPathWithRect:controller.view.bounds].CGPath;
 }
 
 
