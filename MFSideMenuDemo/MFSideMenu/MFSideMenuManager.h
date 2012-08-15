@@ -7,7 +7,7 @@
 #import <Foundation/Foundation.h>
 
 #define kSidebarWidth -64
-#define kMenuButtonRect     CGRectMake(0, 0, 19, 16)
+#define kMenuButtonRect     CGRectMake(0, 0, 29, 16)
 
 @interface MFSideMenuManager : NSObject<UIGestureRecognizerDelegate> {
     CGPoint originalOrigin;
